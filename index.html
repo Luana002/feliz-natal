@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Natal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gif">
+    <img src="./imagens/Feliz Natal.gif" alt="">
+    </div>
+    <audio controls id="myAudio">
+        <source src="./imagens/Mariah Carey - All I Want For Christmas Is You (Official Video).mp3" type="">
+    </audio>
+    <script>
+        window.onload = function() {
+            var audio = document.getElementById('myAudio');
+            audio.play().catch(function(error) {
+                console.log("Erro ao tentar tocar o áudio:", error);
+            });
+        };
+    </script>
+    <div id="bloco">
+        <div class="blocoOne">
+            <div class="gif-right"><img src="./imagens/papainoel.webp" alt="" style="width: 250px;"></div>
+            <h1>Neste Natal, vamos celebrar a união e os laços que nos fortalecem. Que possamos apreciar cada momento juntos, valorizando a amizade e o amor que nos cercam.</h1>
+        </div>
+        <div class="blocoTwo">
+            <div class="gif-left"><img src="./imagens/giphy.webp" alt="" style="width: 250px;"></div>
+            <h1>Desejo a todos muita saúde e alegria. Que a vitalidade nos acompanhe em cada dia, trazendo energia para viver intensamente e aproveitar cada instante com aqueles que amamos.</h1>
+        </div>
+        <div class="blocoThree">
+            <div class="gif-right"><img src="./imagens/200.webp" alt="" style="width: 250px;"></div>
+            <h1>E que o Ano Novo seja repleto de novas oportunidades, conquistas e momentos inesquecíveis. Que cada um de nós encontre a força para realizar nossos sonhos e que a felicidade nos acompanhe em cada passo.</h1>
+        </div>
+    </div>
+        <img src="./imagens/Design sem nome.gif" alt="" class="gifTwo">
+        <footer>
+            <div class="footer-content">
+                <p>© 2024 - De: Luana de Oliveira Corrêa</p>
+            </div>
+        </footer>
+</body>
+</html>
